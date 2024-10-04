@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+
+.conteudo {
+  background-color: #D7D7D9;
+  margin: 0 auto;
+  padding: 20px;
+  width: 700px;
+  height: min-content;
+}
+
+header h1{
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  color: #FF0000;
+}
+
+
+.lista-carros{
+  list-style: none;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.carro-actions button{
+  padding: 10px;
+  border: 1px solid #FFF;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+.carro-actions button:hover {
+  background-color: #FF0000;
+}
+.itens-carro{
+  padding: 20px;
+  margin-bottom: 3px;
+  background-color: #FFF;
+  border: 1px solid #FFF;
+  border-radius: 8px;
+}
+
+.forms h2{
+  color: #FF0000;
+}
+
+.forms label input{
+  border: 1px solid #FFF;
+  background-color: #FFF;
+  border-radius: 6px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.forms-button{
+  margin-top: 5px;
+  padding: 15px;
+  border-radius: 6px;
+  border: 1px solid #FFF;
+  background-color: #FFF;
+  width: 100px;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+.forms-button:hover{
+  background-color: #FF0000;
+}
+
+footer p{
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+}
